@@ -26,8 +26,29 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This app connects to your FallBelt device for fall detection.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This app connects to your FallBelt device for fall detection.</string>
+	<key>NSBluetoothWhileInUseUsageDescription</key>
+	<string></string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string></string>
+	<key>NSCameraUsageDescription</key>
+	<string>Used for emergency situations if needed.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Location is used during emergencies to send help requests.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location is used to send help requests to nearby volunteers.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Used for emergency communication.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-peripheral</string>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -45,5 +66,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>io.flutter.embedded_views_preview</key>
+<true/>
 </dict>
 </plist>

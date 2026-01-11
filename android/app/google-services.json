@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "605340359244",
+    "firebase_url": "https://deltahacks202-default-rtdb.firebaseio.com",
+    "project_id": "deltahacks202",
+    "storage_bucket": "deltahacks202.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605340359244:android:1f833e84978f94dcf9f2e9",
+        "android_client_info": {
+          "package_name": "com.example.fall_detection_v2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZps9ZVYudfMDyDE4RW2n0wN-k7uQ3cMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
