@@ -1,16 +1,10 @@
 # fall_detection_v2
 
-A new Flutter project.
+A Flutter app created mainly for IOS for DeltaHacks 12.
+It connects to a ESP32 via BLE, which detects falls through an integrated accelerometer.
+The ESP32 gives the user the option to cancel the fall-signal by pressing a button on the board, contact a pre-determined emergency contact by long holding it, or letting it time out and automatically calling emergency services in the case that the fall renders the user unconscious or unable to move.
+The ESP32 then sends the signal to the Flutter app on the users phone, which sends the information to Firebase or calls emergency services, allowing volunteers on the same app to recieve the first users location and help them.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Unfortunately, the app is not avaliable on the app store, and is still limited locally to developer mode.
